@@ -1,0 +1,5 @@
+# Artifact Hub repository metadata file
+repositoryID: 68cd84af-4fb9-426d-9c14-0c99be15bdef
+owners: # (optional, used to claim repository ownership)
+  - name: verwilst
+    email: bart@verwilst.be
