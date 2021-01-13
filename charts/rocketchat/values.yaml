@@ -65,12 +65,12 @@ mongodb:
   ## Enable or disable MongoDB dependency completely.
   enabled: true
 
-#  # mongodbRootPassword:
-#
-#  mongodbUsername: rocketchat
-#  # mongodbPassword:
-#  mongodbDatabase: rocketchat
-#
+  auth:
+    username: rocketchat
+    password:
+    database: rocketchat
+    rootPassword:
+
 #  replicaSet:
 #    enabled: true
 #    replicas:
