@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  rocketchat:
+  - apiVersion: v2
+    appVersion: 3.6.0
+    created: "2021-01-13T21:50:20.678945989Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.3.x
+    description: Prepare to take off with the ultimate chat platform, experience the next level of team communications
+    digest: fa94a87217f2e08a0f3e4dbdab790780eecbc2afa765f7a23a163c1e2ffe58fb
+    home: https://rocket.chat/
+    icon: https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/icon.svg
+    keywords:
+    - chat
+    - communication
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    - meteor
+    name: rocketchat
+    sources:
+    - https://github.com/RocketChat/Docker.Official.Image/
+    urls:
+    - https://github.com/verwilst/helm-charts/releases/download/rocketchat-1.0.1/rocketchat-1.0.1.tgz
+    version: 1.0.1
+generated: "2021-01-13T21:50:20.204930447Z"
